@@ -1,0 +1,22 @@
+{
+  "name": "server-initiator",
+  "version": "1.2.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init": "node ./node_modules/server-initiator/index.js"
+  },
+  "author": "Anish Gade",
+  "license": "ISC",
+  "dependencies": {
+    "chmod": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "promisify": "^0.0.3",
+    "util": "^0.12.5"
+  },
+  "bin": {
+    "server-initiator": "index.js"
+  }
+}
